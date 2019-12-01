@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lookupTableGmOverId.h" />
+    <ClInclude Include="readCsvFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lookupTableGmOverId.cpp" />
+    <ClCompile Include="readCsvFile.cpp" />
+    <ClCompile Include="ReadCSVFileToMap.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E8E7483E-5541-47CE-AFC3-74555FBA8D83}</ProjectGuid>
@@ -114,8 +123,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
